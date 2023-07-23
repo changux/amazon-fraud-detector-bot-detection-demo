@@ -51,4 +51,4 @@ Resources:
       NotebookInstanceName: !Ref NotebookName
       RoleArn: !GetAtt SageMakerIamRole.Arn
       VolumeSizeInGB: !Ref VolumeSize
-      DefaultCodeRepository: https://github.com/aws-samples/amazon-fraud-detector-bot-detection-demo.git
+      DefaultCodeRepository: https://github.com/changux/amazon-fraud-detector-bot-detection-demo.git
